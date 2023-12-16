@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+button{
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+/*header start*/
+#header{
+    padding: 22px 0;
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+}
+.header-nav a{
+    padding: 0 25px;
+    color: rgba(31,46,53,0.80);
+    font-size: 18px;
+    font-weight: 400;
+}
+.header-nav a:hover{
+    color: blue;
+    text-decoration-line:underline ;
+    transition:.5s;
+}
+.header-nav label  select{
+    /*padding: 0 8px 0 0;*/
+    margin: 0 25px;
+    border: none;
+    outline: none;
+    color: rgba(31, 46, 53, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.header-icons a {
+    color: #1F2E35;
+    font-size: 27px;
+    padding: 0 12px;
+    transition: .5s;
+}
+.header-icons a :hover{
+    color: royalblue;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/*header end*/
+
+
+/*hero start */
+#hero{
+    padding: 110px 0;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-text h1{
+    width: 545px;
+    color: #1F2E35;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 133.687%;
+}
+.hero-text h1 span{
+    color: #EE4248;
+}
+.hero-text p{
+    padding: 24px 0;
+    width: 520px;
+    color: #30444E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 144.687%;
+
+}
+.hero-text button{
+    padding: 12px 32px;
+    border-radius: 4px;
+    border: 2px solid #EE4248;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px 0 rgba(0,0,0,0.25);
+    color: white;
+}
+.hero-group button:hover{
+    border: 2px solid #EE4248;
+    color: #EE4248;
+    background: transparent;
+    transform: scale(1.1);
+}
+/*hero end*/
+
+/*welcome start*/
+#welcome{
+    padding:57px 0 ;
+    background: #F6F6F6;
+}
+
+.welcome-text h1{
+    color: #1F2E35;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 133.687%;
+    padding-bottom:24px ;
+
+}
+.welcome-text span{
+    color: #EE4248;
+}
+.welcome-text p{
+    width: 520px;
+    color: #30444E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*welcome end*/
+
+/*product start*/
+#product {
+    padding: 116px 0;
+}
+.product h1{
+    color: #1F2E35;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+.product-block h2{
+    color: #EE4248;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 15px 0 ;
+}
+.product-block p{
+    width: 319px;
+    color: #30444E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.product-block button{
+    margin-top: 15px;
+    padding: 8px 16px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 4px;
+    background: #EE4248;
+    border: 2px solid #EE4248;
+
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.product-block button:hover{
+    background: transparent;
+    color: #EE4248;
+    border: 2px solid #EE4248;
+}
+.product-general{
+    padding-top:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*product end*/
+
+/*contact start*/
+#contact{
+    padding: 28px 0;
+}
+.contact-logo h3{
+    color: #263238;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0 8px 0;
+}
+.contact-logo a{
+    color: #263238;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 149.187%; /* 26.854px */
+}
+.contact-nav h3{
+    color: #263238;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+}
+.contact-nav a{
+    color: #263238;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 149.187%;
+    padding: 5px 0;
+}
+.contact-nav{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+/*contact end*/
+
+/*footer start*/
+#footer{
+    background: #EE4248;
+    padding: 22px 0;
+}
+.footer h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+/*footer end*/
